@@ -1,6 +1,6 @@
 
 
-# LLM Indic-Eval: Multilingual Function Calling Benchmark
+# A BFCL Study Of Qwen and Llama: Evaluating Function Calling in Indian Languages
 
 This repository contains the experimental framework and analysis for evaluating the function-calling capabilities of Large Language Models (LLMs) across 22 Indian languages. The project utilizes the **Berkeley Function Calling Leaderboard (BFCL)** as a base and extends it to the Indic multilingual context via the **Gemini Batch API**.
 
@@ -18,6 +18,8 @@ The project is organized into the following directory structure:
 
 
 * **`evaluation_script.sh`**: The core shell script that orchestrates the execution of the BFCL benchmark using the **SGLang** backend.
+* ** `meta-llama_Llama-3.2-1B-Instruct-FC.xlsx`**: The accuracy scores obtained for Llama across categories.
+* ** `Qwen_Qwen3-0.6B-FC .xlsx`**: The accuracy scores obtained for Qwen across categories.
 
 ## Workflow Execution
 
